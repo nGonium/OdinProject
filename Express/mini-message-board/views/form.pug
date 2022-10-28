@@ -1,0 +1,9 @@
+h1 Message form
+form(action="/new", method="POST") 
+  div.form-group
+    label(for="user") name 
+    input#user(type="text" name="user")  
+  div.form-group
+    label(for="text") message  
+    input#text(type="text" name="text")  
+  button(type="submit") submit
